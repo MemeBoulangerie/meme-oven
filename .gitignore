@@ -1,0 +1,6 @@
+node_modules/
+.env
+.env.*
+journal/launch-ledger.jsonl
+journal/LAUNCH_KILL
+.DS_Store

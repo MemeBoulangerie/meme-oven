@@ -1,0 +1,23 @@
+{
+  "name": "meme-oven",
+  "version": "1.0.0",
+  "description": "PreStocks Meme Radar and the launcher that baked Baker Bot",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "radar": "node radar/radar.mjs",
+    "launch:simulate": "node launcher/oven.mjs simuler --plan journal/lancements/baker-bot.json"
+  },
+  "dependencies": {
+    "@irys/upload": "0.0.15",
+    "@irys/upload-solana": "0.1.8",
+    "@raydium-io/raydium-sdk-v2": "0.2.70-alpha",
+    "@solana/spl-token": "0.4.15",
+    "@solana/web3.js": "^1.95.0",
+    "bn.js": "5.2.5",
+    "bs58": "^6.0.0"
+  }
+}

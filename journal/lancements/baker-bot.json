@@ -1,0 +1,15 @@
+{
+  "id": "baker-bot",
+  "nom": "Baker Bot",
+  "symbole": "BAKERBOT",
+  "description": "Baker Bot bakes croissants all day. Hold the bot, earn pre-IPO Figure AI tokens: 1% of every trade is converted and airdropped to holders. A fresh batch from Meme Boulangerie. Creator buy at launch: 0.1 SOL, disclosed. Memecoin, not financial advice.",
+  "image": "journal/lancements/bakerbot-512.jpg",
+  "paire": "PreZad18qfPtbxNpMtMuAuX2zVpvkEU8DnJx56faCWd",
+  "taxe": 100,
+  "achatSol": 0.1,
+  "glissementBps": 200,
+  "twitter": "https://x.com/MemeBoulangerie",
+  "telegram": "https://t.me/memeboulangerie",
+  "canal": "@memeboulangerie",
+  "annonce": "🥖 Fresh batch out of the oven: Baker Bot ($BAKERBOT)\n\nA robot baker that works all day. 1% of every trade is converted into pre-IPO Figure AI tokens and airdropped to holders.\n\nLaunched on StonkFun. Creator buy: 0.1 SOL, disclosed.\n\nCA: {mint}\n{chart}\n\nMemecoin, not financial advice."
+}

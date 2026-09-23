@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PreStocks Meme Radar</title>
+<meta name="description" content="How much PreStocks demand memecoins create, measured on-chain. By Meme Boulangerie.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fbf6ee;--card:#fffdf8;--ink:#2b2118;--muted:#8a7a68;--line:#eadfce;--accent:#c9731c;--accent-soft:#f6e3cc;--good:#2f7d4f}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#17120d;--card:#1f1913;--ink:#f3ebe0;--muted:#a8977f;--line:#342a20;--accent:#e8964a;--accent-soft:#3a2a1a;--good:#6fcf97}}
+:root[data-theme="dark"]{--bg:#17120d;--card:#1f1913;--ink:#f3ebe0;--muted:#a8977f;--line:#342a20;--accent:#e8964a;--accent-soft:#3a2a1a;--good:#6fcf97}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 Inter,system-ui,-apple-system,Segoe UI,sans-serif}
+main{max-width:1120px;margin:0 auto;padding:40px 16px 64px}
+h1,h2{font-family:Fraunces,Georgia,serif;letter-spacing:-.01em;margin:0}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.1}
+h2{font-size:24px;margin:48px 0 12px}
+.lede{font-size:18px;max-width:720px;margin:14px 0 6px}
+.muted{color:var(--muted);font-size:13px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin:28px 0}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.stat b{display:block;font-family:Fraunces,Georgia,serif;font-size:32px;color:var(--accent)}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:14px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:900px}
+th,td{padding:12px 14px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);font-weight:600}
+tr:last-child td{border-bottom:0}
+td.num{white-space:nowrap}
+td .muted{display:block}
+.tok{display:flex;gap:10px;align-items:center}
+.tok img{border-radius:8px;background:var(--accent-soft)}
+.tok div{display:flex;flex-direction:column}
+.bar{height:6px;background:var(--accent-soft);border-radius:4px;margin-top:6px;width:120px}
+.bar i{display:block;height:100%;background:var(--accent);border-radius:4px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.callout{background:var(--accent-soft);border-radius:14px;padding:16px 18px;margin:18px 0}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px}
+.step b{color:var(--accent)}
+footer{margin-top:48px;font-size:13px;color:var(--muted)}
+code{font-size:12px;background:var(--accent-soft);padding:1px 5px;border-radius:5px;word-break:break-all}
+</style>
+</head>
+<body>
+<main>
+  <p class="muted">🥐 by <a href="https://x.com/MemeBoulangerie">Meme Boulangerie</a> · updated 2026-09-23 13:56 UTC</p>
+  <h1>PreStocks Meme Radar</h1>
+  <p class="lede">Every memecoin paired with a PreStocks token has to buy that token to exist. This page measures, on-chain, how much PreStocks supply memecoins are holding right now.</p>
+
+  <section class="stats" aria-label="Totals">
+    <div class="stat"><b>$660k</b>of PreStocks tokens held by memecoin curves and pools</div>
+    <div class="stat"><b>5,304</b>memecoins paired with PreStocks on StonkFun</div>
+    <div class="stat"><b>3.1%</b>of the market value of all PreStocks tokens, held by memes</div>
+    <div class="stat"><b>9.4%</b>of all POLYMARKET supply sits in memes, the highest share</div>
+  </section>
+
+  <div class="wrap">
+  <table>
+    <thead><tr><th>PreStocks token</th><th>Memes</th><th>Graduated</th><th>Supply held by memes</th><th>Value held</th><th>Biggest meme</th><th>Hottest meme, 24h</th></tr></thead>
+    <tbody>
+      <tr>
+        <td><div class="tok"><img src="https://www.prestocks.com/logos/openai.png" alt="" width="28" height="28" loading="lazy"><div><strong>OpenAI</strong><span class="muted">OPENAI · $1.27T</span></div></div></td>
+        <td class="num">2,344</td>
+        <td class="num">93<span class="muted"> · 4.0%</span></td>
+        <td class="num"><strong>7.12%</strong><span class="muted"> 201 OPENAI</span>
+          <div class="bar" aria-hidden="true"><i style="width:75.6%"></i></div></td>
+        <td class="num">$261k<span class="muted"> curves $94.9k · pools $166k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/8RAFGyzajpYX96ppL7MXEL5DwjBSnbAqjBTfhUXDhVYj" rel="noopener">$GPT</a> <span class="muted">$59.6k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/FmoHrCkQpFWfMCrQArbEtuFgy7MwZvb4HPzTD3XDsrdE" rel="noopener">$SOL</a> <span class="muted">$18.2k</span> <span class="muted">24h vol $137k</span></td>
+      </tr>
+      <tr>
+        <td><div class="tok"><img src="https://www.prestocks.com/logos/anthropic.png" alt="" width="28" height="28" loading="lazy"><div><strong>Anthropic</strong><span class="muted">ANTHROPIC · $1.72T</span></div></div></td>
+        <td class="num">1,907</td>
+        <td class="num">69<span class="muted"> · 3.6%</span></td>
+        <td class="num"><strong>2.75%</strong><span class="muted"> 203 ANTHROPIC</span>
+          <div class="bar" aria-hidden="true"><i style="width:29.2%"></i></div></td>
+        <td class="num">$206k<span class="muted"> curves $73.4k · pools $133k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/7ssJZGFT3twGqeYA1kvpoMWwZYvMZvrMEbjRaWgg46BL" rel="noopener">$B*TTHOLE</a> <span class="muted">$1.31M</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/CaWZeUM4FvX9dPkjGc2xHS6tSN3qJfTWyvaG77aM5o7h" rel="noopener">$AGI</a> <span class="muted">$351k</span> <span class="muted">24h vol $52.2k</span></td>
+      </tr>
+      <tr>
+        <td><div class="tok"><img src="https://www.prestocks.com/logos/polymarket.png" alt="" width="28" height="28" loading="lazy"><div><strong>Polymarket</strong><span class="muted">POLYMARKET · $14.2B</span></div></div></td>
+        <td class="num">370</td>
+        <td class="num">16<span class="muted"> · 4.3%</span></td>
+        <td class="num"><strong>9.42%</strong><span class="muted"> 454 POLYMARKET</span>
+          <div class="bar" aria-hidden="true"><i style="width:100.0%"></i></div></td>
+        <td class="num">$66.6k<span class="muted"> curves $13.6k · pools $53.0k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/GxFZAkFEeEhoPXaL7Tyq6AMcbsmt5WrEbPDTg58EbCwV" rel="noopener">$GUT</a> <span class="muted">$59.5k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/71PLzdrjMQGHiWta4CJ3Pr8B1f5ck7Mdz7BkfN7ZGHYq" rel="noopener">$Nothing</a> <span class="muted">$8.6k</span> <span class="muted">24h vol $56.5k</span></td>
+      </tr>
+      <tr>
+        <td><div class="tok"><img src="https://www.prestocks.com/logos/neuralink.png" alt="" width="28" height="28" loading="lazy"><div><strong>Neuralink</strong><span class="muted">NEURALINK · $64.4B</span></div></div></td>
+        <td class="num">340</td>
+        <td class="num">16<span class="muted"> · 4.7%</span></td>
+        <td class="num"><strong>4.78%</strong><span class="muted"> 124 NEURALINK</span>
+          <div class="bar" aria-hidden="true"><i style="width:50.7%"></i></div></td>
+        <td class="num">$54.7k<span class="muted"> curves $15.4k · pools $39.3k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/9TwJc2mFyFKEvMKeQ1bZbqoZNTYJN9PE1ES4Dp2SHquQ" rel="noopener">$NCAT</a> <span class="muted">$24.6k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/485mKRd6w6XkcGuezKLaMHSKJ1MGYw5SgxoY7JgxhY7X" rel="noopener">$DROIDAI</a> <span class="muted">$2.5k</span> <span class="muted">24h vol $5.3k</span></td>
+      </tr>
+      <tr>
+        <td><div class="tok"><img src="https://www.prestocks.com/logos/figureai.png" alt="" width="28" height="28" loading="lazy"><div><strong>Figure AI</strong><span class="muted">FIGUREAI · $39.6B</span></div></div></td>
+        <td class="num">52</td>
+        <td class="num">3<span class="muted"> · 5.8%</span></td>
+        <td class="num"><strong>6.98%</strong><span class="muted"> 210 FIGUREAI</span>
+          <div class="bar" aria-hidden="true"><i style="width:74.1%"></i></div></td>
+        <td class="num">$37.8k<span class="muted"> curves $16.4k · pools $21.4k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/FCpqXfA66C8D7bTAu5SS2hEHd2WBB9tN8MBYtGw9FBpm" rel="noopener">$F03</a> <span class="muted">$50.7k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/FCpqXfA66C8D7bTAu5SS2hEHd2WBB9tN8MBYtGw9FBpm" rel="noopener">$F03</a> <span class="muted">$50.7k</span> <span class="muted">24h vol $3.7k</span></td>
+      </tr>
+      <tr>
+        <td><div class="tok"><img src="https://www.prestocks.com/logos/kalshi.png" alt="" width="28" height="28" loading="lazy"><div><strong>Kalshi</strong><span class="muted">KALSHI · $32.2B</span></div></div></td>
+        <td class="num">189</td>
+        <td class="num">9<span class="muted"> · 4.8%</span></td>
+        <td class="num"><strong>3.68%</strong><span class="muted"> 33.3 KALSHI</span>
+          <div class="bar" aria-hidden="true"><i style="width:39.1%"></i></div></td>
+        <td class="num">$28.8k<span class="muted"> curves $8.5k · pools $20.3k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/63qoV3oPkxZ7TBvNnAe8L1gAgsLR3quNViRQuMzKYBqK" rel="noopener">$WASH</a> <span class="muted">$12.4k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/9MFcjnmZaPVNm6amVZ2ffugFf3ETyBfhYpmjPsbqgyZA" rel="noopener">$COPE</a> <span class="muted">$6.1k</span> <span class="muted">24h vol $47.8k</span></td>
+      </tr>
+      <tr>
+        <td><div class="tok"><img src="https://www.prestocks.com/logos/anduril.png" alt="" width="28" height="28" loading="lazy"><div><strong>Anduril</strong><span class="muted">ANDURIL · $134.3B</span></div></div></td>
+        <td class="num">102</td>
+        <td class="num">5<span class="muted"> · 4.9%</span></td>
+        <td class="num"><strong>0.28%</strong><span class="muted"> 32.5 ANDURIL</span>
+          <div class="bar" aria-hidden="true"><i style="width:2.9%"></i></div></td>
+        <td class="num">$4.8k<span class="muted"> curves $3.1k · pools $1.7k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/8DPB5jBFyu32HPxfXXb4UEvBnGPaNBe5sWjk1XjFezH" rel="noopener">$WC</a> <span class="muted">$40.7k</span></td>
+        <td><a href="https://www.stonkfun.xyz/token/2iUAAvHoyb7cug9mvDAHQVtFoR6shScjyPYi7sKQUwjj" rel="noopener">$TES69</a> <span class="muted">$3.3k</span> <span class="muted">24h vol $3.1k</span></td>
+      </tr>
+      <tr>
+        <td><div class="tok"><img src="https://www.prestocks.com/logos/spacex.png" alt="" width="28" height="28" loading="lazy"><div><strong>SpaceX</strong><span class="muted">SPACEX · $2.02T</span></div></div></td>
+        <td class="num">0</td>
+        <td class="num">0<span class="muted"> · –</span></td>
+        <td class="num"><strong>0.00%</strong><span class="muted"> 0.00 SPACEX</span>
+          <div class="bar" aria-hidden="true"><i style="width:0.0%"></i></div></td>
+        <td class="num">$0<span class="muted"> curves $0 · pools $0</span></td>
+        <td><span class="muted">none yet</span></td>
+        <td><span class="muted">none yet</span></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="callout"><strong>Empty oven:</strong> SpaceX ($2.02T valuation) has no memecoin paired with its PreStocks token yet.</div>
+
+  <h2>How a meme buys PreStocks</h2>
+  <div class="steps">
+    <div class="step"><b>1. Buy the meme, buy the stock.</b><br>A StonkFun meme paired with a PreStocks token trades against it. Each purchase pays in that token, which lands in the meme's bonding curve.</div>
+    <div class="step"><b>2. The curve holds it.</b><br>Until graduation, the tokens stay in a Raydium LaunchLab vault. After graduation they move into the meme's Raydium CPMM pool and stay there as liquidity.</div>
+    <div class="step"><b>3. Cashback buys more.</b><br>Cashback memes charge a transfer tax of 1 to 3 percent, converted into the PreStocks token and airdropped to holders.</div>
+  </div>
+
+  <h2>Bake one</h2>
+  <p>We don't just measure it. On 23 September 2026 we launched <a href="https://www.stonkfun.xyz/token/4Wuy4sVcTiY5Ek7s37f8YUZE2DEuET7262fHcydH4Lz4">Baker Bot ($BAKERBOT)</a>, a cashback meme paired with FIGUREAI, with our open-source launcher: plan file, mandatory simulation, hard caps in code, SOL converted to the PreStocks token, one Telegram command. Code and receipts: <a href="https://github.com/MemeBoulangerie/meme-oven">github.com/MemeBoulangerie/meme-oven</a>.</p>
+
+  <footer>
+    <p><strong>Method.</strong> Curves: token accounts of each PreStock owned by the Raydium LaunchLab vault authority WLHv2UAZm6z4KyaaELi5pjdbJh6RESMva1Rnn8pJVVh. Graduated pools: Raydium CPMM pools (CPMMoo8L3F4NbTegBCKVNunggL7H1ZpdTHKxQB5qKP1C) holding the PreStock whose other token is a graduated StonkFun meme; memes that migrated to other pool types are not counted, so the figure is a floor. Value: token amount × PreStocks tokenPrice.
+    Sources: <a href="https://prestocks.com/api/prestocks">PreStocks API</a>, <a href="https://www.stonkfun.xyz/developers">StonkFun public API</a>, Solana RPC. All public, no key. Meme names are user-generated and lightly masked.</p>
+    <p>Not affiliated with PreStocks, StonkFun or any company listed. Memecoins are highly speculative. Nothing here is financial advice.</p>
+  </footer>
+</main>
+</body>
+</html>
