@@ -26,10 +26,12 @@ export function renderPage(radar) {
   const when = new Date(radar.generatedAt);
   const stamp = `${when.toISOString().slice(0, 16).replace("T", " ")} UTC`;
   const leader = [...radar.tokens].sort((a, b) => (b.held.shareOfSupply ?? 0) - (a.held.shareOfSupply ?? 0))[0];
-  const empty = radar.tokens.filter((r) => r.memes === 0);
+  // a PreStock that StonkFun does not open for launches cannot have memes: say so instead of calling it an empty oven
+  const closed = radar.tokens.filter((r) => r.launchable === false);
+  const empty = radar.tokens.filter((r) => r.memes === 0 && r.launchable !== false);
   const rows = radar.tokens.map((r) => `
       <tr>
-        <td><div class="tok"><img src="${esc(r.image)}" alt="" width="28" height="28" loading="lazy"><div><strong>${esc(r.name)}</strong><span class="muted">${esc(r.symbol)} · ${usd(r.valuationUsd)}</span></div></div></td>
+        <td><div class="tok"><img src="${esc(r.image)}" alt="" width="28" height="28" loading="lazy"><div><strong>${esc(r.name)}</strong><span class="muted">${esc(r.symbol)} · ${usd(r.valuationUsd)}${r.launchable === false ? " · not open for launches on StonkFun" : ""}</span></div></div></td>
         <td class="num">${r.memes.toLocaleString("en-US")}</td>
         <td class="num">${r.graduated}<span class="muted"> · ${pct(r.graduationRate, 1)}</span></td>
         <td class="num"><strong>${pct(r.held.shareOfSupply)}</strong><span class="muted"> ${qty(r.held.amount)} ${esc(r.symbol)}</span>
@@ -106,6 +108,8 @@ code{font-size:12px;background:var(--accent-soft);padding:1px 5px;border-radius:
   </div>
 ${empty.length ? `
   <div class="callout"><strong>Empty oven:</strong> ${empty.map((r) => `${esc(r.name)} (${usd(r.valuationUsd)} valuation)`).join(", ")} ${empty.length > 1 ? "have no memecoin paired with their PreStocks tokens" : "has no memecoin paired with its PreStocks token"} yet.</div>` : ""}
+${closed.length ? `
+  <div class="callout"><strong>Not on the menu yet:</strong> ${closed.map((r) => `${esc(r.name)} (${usd(r.valuationUsd)} valuation)`).join(", ")} ${closed.length > 1 ? "are" : "is"} not open for launches on StonkFun, so no memecoin can pair with ${closed.length > 1 ? "them" : "it"} for now.</div>` : ""}
 
   <h2>How a meme buys PreStocks</h2>
   <div class="steps">

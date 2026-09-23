@@ -136,6 +136,14 @@ async function heldByGraduatedPools(mint, graduatedMints) {
 const started = new Date();
 log(`PreStocks Meme Radar — ${started.toISOString()}`);
 const prestocks = await getJson(PRESTOCKS_API);
+// Pairs open for launches on StonkFun: a PreStock missing from this list cannot have memes yet
+// (SPACEX was missing on 23/09/2026, which is why it had zero memes, not because nobody tried).
+let launchable = null;
+try {
+  const j = await getJson(`${STONKFUN_API}/pairs?launchable=true`);
+  const list = j.data?.pairs ?? j.pairs ?? j.data ?? j;
+  launchable = new Set((Array.isArray(list) ? list : []).map((x) => x.mint));
+} catch { log("  launchable pairs unavailable, skipping that flag"); }
 const rows = [];
 for (const p of prestocks) {
   const mint = p.contract_address;
@@ -155,6 +163,7 @@ for (const p of prestocks) {
   rows.push({
     symbol: p.symbol, name: p.name.replace(/\s*PreStocks$/i, ""), mint, image: p.image, url: p.external_url,
     price, valuationUsd: +p.markValuation, supply: +p.supply,
+    launchable: launchable ? launchable.has(mint) : null,
     memes: all.total, graduated: graduated.length, aboutToGraduate: soon.total,
     graduationRate: all.total ? graduated.length / all.total : null,
     topMemes: all.tokens.map(memeView), hottestMeme: hot.tokens[0] ? memeView(hot.tokens[0]) : null,

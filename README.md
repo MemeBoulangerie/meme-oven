@@ -19,7 +19,7 @@ Nobody was measuring how big that is. So we did, on-chain, on 23 September 2026:
 | Share of OPENAI supply held by memes | **7.1%** |
 | Share of FIGUREAI supply held by memes | **7.0%** |
 | Memecoins paired with PreStocks on StonkFun | **5,304**, of which 211 graduated |
-| Memecoins paired with SPACEX | **0**, the biggest valuation has an empty oven |
+| Memecoins paired with SPACEX | **0**: StonkFun does not open that pair for launches yet |
 
 **Live page: https://memeboulangerie.github.io/meme-oven/**, refreshed every six hours by a GitHub Action.
 
