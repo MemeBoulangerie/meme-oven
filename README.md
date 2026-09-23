@@ -21,7 +21,7 @@ Nobody was measuring how big that is. So we did, on-chain, on 23 September 2026:
 | Memecoins paired with PreStocks on StonkFun | **5,304**, of which 211 graduated |
 | Memecoins paired with SPACEX | **0**, the biggest valuation has an empty oven |
 
-**Live page: https://memeboulangerie.github.io/meme-oven/**
+**Live page: https://memeboulangerie.github.io/meme-oven/**, refreshed every six hours by a GitHub Action.
 
 ## Why it matters for PreStocks
 
@@ -37,7 +37,7 @@ Nobody was measuring how big that is. So we did, on-chain, on 23 September 2026:
 | Folder | What it does |
 |---|---|
 | `radar/` | `radar.mjs` collects the data from three public sources and writes `docs/radar.json` and `docs/index.html`. Zero dependencies. |
-| `docs/` | The live radar page and its data, served by GitHub Pages. |
+| `docs/` | The live radar page and its data, served by GitHub Pages and refreshed by `.github/workflows/radar.yml`. |
 | `launcher/` | `oven.mjs`, the exact code that launched Baker Bot on mainnet. Comments are in French: we are a French bakery. |
 | `journal/lancements/` | The plan file Baker Bot was launched from: name, pair, tax, creator buy, announcement. |
 | `case-study/` | Baker Bot, launch receipts and what happened in the first minutes. |
