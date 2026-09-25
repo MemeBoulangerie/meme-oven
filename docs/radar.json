@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-24T18:30:41.094Z",
+ "generatedAt": "2026-09-25T00:35:01.624Z",
  "sources": {
   "prestocks": "https://prestocks.com/api/prestocks",
   "stonkfun": "https://www.stonkfun.xyz/api/public/v1",
@@ -11,12 +11,12 @@
   "value": "token amount × PreStocks tokenPrice"
  },
  "totals": {
-  "memes": 5624,
-  "graduated": 220,
-  "heldValueUsd": 730546.039487759,
-  "curveValueUsd": 235562.9041297001,
-  "poolValueUsd": 494983.13535805885,
-  "prestocksMarketValueUsd": 21608311.909505863
+  "memes": 5786,
+  "graduated": 226,
+  "heldValueUsd": 756820.5697071642,
+  "curveValueUsd": 236781.28647900556,
+  "poolValueUsd": 520039.2832281584,
+  "prestocksMarketValueUsd": 21761652.162799705
  },
  "tokens": [
   {
@@ -25,14 +25,14 @@
    "mint": "PreweJYECqtQwBtpxHL171nL2K6umo692gTm7Q3rpgF",
    "image": "https://www.prestocks.com/logos/openai.png",
    "url": "https://www.prestocks.com/openai",
-   "price": 1324.398103979898,
-   "valuationUsd": 1268254638444,
-   "supply": 2826.3438804865373,
+   "price": 1315.669716064644,
+   "valuationUsd": 1268212963639,
+   "supply": 2826.3336503454357,
    "launchable": true,
-   "memes": 2428,
+   "memes": 2453,
    "graduated": 94,
    "aboutToGraduate": 0,
-   "graduationRate": 0.03871499176276771,
+   "graduationRate": 0.038320423970648186,
    "topMemes": [
     {
      "mint": "AvmFXAHGM1M5V4wcoFCeswgg6r7bkyTdV8J7amVdGPAS",
@@ -40,9 +40,9 @@
      "name": "Aeon",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 193155,
+     "marketCapUsd": 151891,
      "peakMarketCapUsd": 290041,
-     "volume24hUsd": 55588,
+     "volume24hUsd": 48944,
      "imageUrl": "https://ipfs.launchblitz.ai/async/AvmFXAHGM1M5V4wcoFCeswgg6r7bkyTdV8J7amVdGPAS.png",
      "createdAt": "2026-09-22T03:10:13.085Z"
     },
@@ -52,23 +52,11 @@
      "name": "GIANT PAIR OF TITS",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 63722,
+     "marketCapUsd": 54012,
      "peakMarketCapUsd": 1653072,
-     "volume24hUsd": 1615,
+     "volume24hUsd": 2122,
      "imageUrl": "https://gateway.irys.xyz/AYimHeWRR7jBuoxmjES2u6mhNy59VNdpApYGBTPKwiW8",
      "createdAt": "2026-09-06T19:32:07.230Z"
-    },
-    {
-     "mint": "7AxHfQjwSTwU4oDFHJtEV3XbHbvZk4D1zsKfdUsf2urm",
-     "symbol": "AGI",
-     "name": "A Genius Inu",
-     "status": "graduated",
-     "mode": "reward",
-     "marketCapUsd": 21718,
-     "peakMarketCapUsd": 205756,
-     "volume24hUsd": 19,
-     "imageUrl": "https://gateway.irys.xyz/26ZxxbbB9cAspDi6xZSNCi9hnrJ5vpTSynnkUxxFAtRm",
-     "createdAt": "2026-08-26T19:29:10.411Z"
     },
     {
      "mint": "8V5VdQJnyDrQ1e7Fd9LmMqSGTdjpeTdvEy68DQH1ULCh",
@@ -76,11 +64,23 @@
      "name": "Doug",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 18639,
+     "marketCapUsd": 23543,
      "peakMarketCapUsd": 399403,
-     "volume24hUsd": 320,
+     "volume24hUsd": 470,
      "imageUrl": "https://gateway.irys.xyz/DmsCz1wxiBusKSX19xfsHrPWrVnQJHTiM1gaufiGzhHt",
      "createdAt": "2026-08-08T22:45:23.076Z"
+    },
+    {
+     "mint": "7AxHfQjwSTwU4oDFHJtEV3XbHbvZk4D1zsKfdUsf2urm",
+     "symbol": "AGI",
+     "name": "A Genius Inu",
+     "status": "graduated",
+     "mode": "reward",
+     "marketCapUsd": 21799,
+     "peakMarketCapUsd": 205756,
+     "volume24hUsd": 13,
+     "imageUrl": "https://gateway.irys.xyz/26ZxxbbB9cAspDi6xZSNCi9hnrJ5vpTSynnkUxxFAtRm",
+     "createdAt": "2026-08-26T19:29:10.411Z"
     },
     {
      "mint": "7tWFogvm3EyPmHsGMrQBiw1wBpXxdF88dZW5HkeTL4tH",
@@ -88,41 +88,41 @@
      "name": "JALAPEÑO",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 16432,
+     "marketCapUsd": 19677,
      "peakMarketCapUsd": 410979,
-     "volume24hUsd": 0,
+     "volume24hUsd": 349,
      "imageUrl": "https://gateway.irys.xyz/3knLD4mke1Qu7Z6VucZbvpxvZLub5sGniEQx2ot1sCVz",
      "createdAt": "2026-08-25T14:07:25.355Z"
     }
    ],
    "hottestMeme": {
-    "mint": "AvmFXAHGM1M5V4wcoFCeswgg6r7bkyTdV8J7amVdGPAS",
-    "symbol": "AEON",
-    "name": "Aeon",
-    "status": "graduated",
+    "mint": "8MgqMsTSLpNZUhhkXhFCE9DQS1rmTjXK3PVKkDKqSTNK",
+    "symbol": "NGN",
+    "name": "NGN",
+    "status": "new",
     "mode": "reward",
-    "marketCapUsd": 193155,
-    "peakMarketCapUsd": 290041,
-    "volume24hUsd": 55588,
-    "imageUrl": "https://ipfs.launchblitz.ai/async/AvmFXAHGM1M5V4wcoFCeswgg6r7bkyTdV8J7amVdGPAS.png",
-    "createdAt": "2026-09-22T03:10:13.085Z"
+    "marketCapUsd": 3750,
+    "peakMarketCapUsd": 9478,
+    "volume24hUsd": 55482,
+    "imageUrl": "https://desperate-moccasin-minnow.myfilebase.com/ipfs/QmSV3UhuSB2NyN8ifFp77xGQdHJV9LBavkacyjhViWDk6i",
+    "createdAt": "2026-09-24T07:40:48.105Z"
    },
    "curves": {
-    "vaults": 2070,
-    "funded": 2058,
-    "amount": 67.07243970500001,
-    "valueUsd": 88830.61197460804
+    "vaults": 2095,
+    "funded": 2083,
+    "amount": 66.31617408299996,
+    "valueUsd": 87250.18192627408
    },
    "graduatedPools": {
     "pools": 57,
     "otherPools": 1,
-    "amount": 142.40488088900003,
-    "valueUsd": 188600.75424687486
+    "amount": 139.09060999100004,
+    "valueUsd": 182997.30335411715
    },
    "held": {
-    "amount": 209.47732059400005,
-    "valueUsd": 277431.3662214829,
-    "shareOfSupply": 0.07411600620867828
+    "amount": 205.406784074,
+    "valueUsd": 270247.48528039124,
+    "shareOfSupply": 0.0726760565048274
    }
   },
   {
@@ -131,14 +131,14 @@
    "mint": "Pren1FvFX6J3E4kXhJuCiAD5aDmGEb7qJRncwA8Lkhw",
    "image": "https://www.prestocks.com/logos/anthropic.png",
    "url": "https://www.prestocks.com/anthropic",
-   "price": 1036.5398095334888,
-   "valuationUsd": 1699882806847,
-   "supply": 7381.801806036,
+   "price": 1069.3796402594253,
+   "valuationUsd": 1712866808085,
+   "supply": 7381.799123842,
    "launchable": true,
-   "memes": 2095,
-   "graduated": 76,
+   "memes": 2226,
+   "graduated": 81,
    "aboutToGraduate": 0,
-   "graduationRate": 0.036276849642004776,
+   "graduationRate": 0.03638814016172507,
    "topMemes": [
     {
      "mint": "7ssJZGFT3twGqeYA1kvpoMWwZYvMZvrMEbjRaWgg46BL",
@@ -146,9 +146,9 @@
      "name": "BUTTHOLE",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 1325646,
+     "marketCapUsd": 1602889,
      "peakMarketCapUsd": 6772770,
-     "volume24hUsd": 10934,
+     "volume24hUsd": 24020,
      "imageUrl": "https://gateway.irys.xyz/CwPUFPnbHxAKQq71YFYTHSRovwTt2hZqYne3RGbp2a5Z",
      "createdAt": "2026-08-05T21:45:04.100Z"
     },
@@ -158,9 +158,9 @@
      "name": "artificial gooner intelligence",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 345853,
+     "marketCapUsd": 228765,
      "peakMarketCapUsd": 11185589,
-     "volume24hUsd": 41875,
+     "volume24hUsd": 41416,
      "imageUrl": "https://gateway.irys.xyz/7TvJFKgw3euHaDDQoccZH9BUzv14nVABgntUBeBXRLy1",
      "createdAt": "2026-09-04T14:47:25.952Z"
     },
@@ -170,23 +170,11 @@
      "name": "clawd",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 164614,
+     "marketCapUsd": 142605,
      "peakMarketCapUsd": 1249601,
-     "volume24hUsd": 25597,
+     "volume24hUsd": 21129,
      "imageUrl": "https://gateway.irys.xyz/EHzTE2YZpzhdvYiZSZSUuGaqhvwZdhi348fo37mNSRXd",
      "createdAt": "2026-08-05T20:25:39.945Z"
-    },
-    {
-     "mint": "2s9ycNwMgVCB4SWtXmTu14w1ospd88MVYZdHLVEHLdVC",
-     "symbol": "SKYNET",
-     "name": "Skynet",
-     "status": "graduated",
-     "mode": "reward",
-     "marketCapUsd": 78043,
-     "peakMarketCapUsd": 367719,
-     "volume24hUsd": 20860,
-     "imageUrl": "https://axiomtrading-v2.axiom-cdn.io/GNWw35H4tr5ddEgBtpQCVEzPaRt9iieUa2f7rpVrageS.webp",
-     "createdAt": "2026-09-09T15:21:14.728Z"
     },
     {
      "mint": "BSECup8M2q2ZHr7z7ReSBjxbpErP2xhBu73fWSKF5J86",
@@ -194,11 +182,23 @@
      "name": "Anthropic",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 74163,
+     "marketCapUsd": 67822,
      "peakMarketCapUsd": 128402,
-     "volume24hUsd": 2966,
+     "volume24hUsd": 4060,
      "imageUrl": "https://gateway.irys.xyz/8ZZ6jiLPUSfXxr3yRF19ausrmvdMYFf7Ej8j53GRq5QE",
      "createdAt": "2026-08-11T03:39:15.859Z"
+    },
+    {
+     "mint": "2s9ycNwMgVCB4SWtXmTu14w1ospd88MVYZdHLVEHLdVC",
+     "symbol": "SKYNET",
+     "name": "Skynet",
+     "status": "graduated",
+     "mode": "reward",
+     "marketCapUsd": 63391,
+     "peakMarketCapUsd": 367719,
+     "volume24hUsd": 16828,
+     "imageUrl": "https://axiomtrading-v2.axiom-cdn.io/GNWw35H4tr5ddEgBtpQCVEzPaRt9iieUa2f7rpVrageS.webp",
+     "createdAt": "2026-09-09T15:21:14.728Z"
     }
    ],
    "hottestMeme": {
@@ -207,28 +207,28 @@
     "name": "Claude Opus Chan",
     "status": "new",
     "mode": "reward",
-    "marketCapUsd": 3572,
+    "marketCapUsd": 3512,
     "peakMarketCapUsd": 32127,
-    "volume24hUsd": 53574,
+    "volume24hUsd": 55127,
     "imageUrl": "https://axiomtrading-v2.axiom-cdn.io/DryBqoc2Ke7aHx5TZ8C8rvvx4dnJ9P2EVWT35m8fpump.webp",
     "createdAt": "2026-09-24T13:58:46.774Z"
    },
    "curves": {
-    "vaults": 1861,
-    "funded": 1854,
-    "amount": 87.569257284,
-    "valueUsd": 90769.02126614643
+    "vaults": 1990,
+    "funded": 1983,
+    "amount": 87.14817883099997,
+    "valueUsd": 93194.48812755881
    },
    "graduatedPools": {
-    "pools": 57,
+    "pools": 62,
     "otherPools": 3,
-    "amount": 147.74877768000002,
-    "valueUsd": 153147.489875233
+    "amount": 160.00894643600003,
+    "valueUsd": 171110.30957801937
    },
    "held": {
-    "amount": 235.31803496400002,
-    "valueUsd": 243916.51114137942,
-    "shareOfSupply": 0.03187812964195051
+    "amount": 247.157125267,
+    "valueUsd": 264304.79770557815,
+    "shareOfSupply": 0.03348196301748757
    }
   },
   {
@@ -237,24 +237,36 @@
    "mint": "Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP",
    "image": "https://www.prestocks.com/logos/polymarket.png",
    "url": "https://www.prestocks.com/polymarket",
-   "price": 144.82933681105592,
-   "valuationUsd": 15029464506,
-   "supply": 4816.943629927,
+   "price": 145.73191987674596,
+   "valuationUsd": 15034534805,
+   "supply": 4816.888761622,
    "launchable": true,
-   "memes": 400,
-   "graduated": 16,
+   "memes": 404,
+   "graduated": 17,
    "aboutToGraduate": 0,
-   "graduationRate": 0.04,
+   "graduationRate": 0.04207920792079208,
    "topMemes": [
+    {
+     "mint": "9Uqpbbpq7EzAtotoQJhRhD9DUnWAQKB2Bzc2ym7J4yzD",
+     "symbol": "POLYCAT",
+     "name": "Polymarket Cat",
+     "status": "graduated",
+     "mode": "reward",
+     "marketCapUsd": 50255,
+     "peakMarketCapUsd": 50255,
+     "volume24hUsd": 10627,
+     "imageUrl": "https://gateway.irys.xyz/8zZYnZktVpY21vWgG67Qyzq2exYp5SuAPceFquDPKmVs",
+     "createdAt": "2026-09-22T18:26:22.169Z"
+    },
     {
      "mint": "GxFZAkFEeEhoPXaL7Tyq6AMcbsmt5WrEbPDTg58EbCwV",
      "symbol": "GUT",
      "name": "Gut Says",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 43539,
+     "marketCapUsd": 41672,
      "peakMarketCapUsd": 536502,
-     "volume24hUsd": 15239,
+     "volume24hUsd": 16167,
      "imageUrl": "https://gateway.irys.xyz/G1Ecgqf3QEGTyeEsjNQpY73RmNMs87V9kmGzyoMxyDHM",
      "createdAt": "2026-09-08T14:12:55.090Z"
     },
@@ -264,9 +276,9 @@
      "name": "insidoor",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 37643,
+     "marketCapUsd": 30694,
      "peakMarketCapUsd": 1309659,
-     "volume24hUsd": 4505,
+     "volume24hUsd": 5904,
      "imageUrl": "https://gateway.irys.xyz/BMeHoFz22JiZeEyeF3t8x3LQRAiv8XksWBNtSQxksFXF",
      "createdAt": "2026-08-06T03:27:51.904Z"
     },
@@ -276,23 +288,11 @@
      "name": "LowPoly Cat",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 13845,
+     "marketCapUsd": 13150,
      "peakMarketCapUsd": 301315,
-     "volume24hUsd": 1107,
+     "volume24hUsd": 676,
      "imageUrl": "https://metadata.j7tracker.io/images/4EkFXqx91B",
      "createdAt": "2026-09-11T02:44:39.237Z"
-    },
-    {
-     "mint": "9Uqpbbpq7EzAtotoQJhRhD9DUnWAQKB2Bzc2ym7J4yzD",
-     "symbol": "POLYCAT",
-     "name": "Polymarket Cat",
-     "status": "graduated",
-     "mode": "reward",
-     "marketCapUsd": 13128,
-     "peakMarketCapUsd": 49297,
-     "volume24hUsd": 4211,
-     "imageUrl": "https://gateway.irys.xyz/8zZYnZktVpY21vWgG67Qyzq2exYp5SuAPceFquDPKmVs",
-     "createdAt": "2026-09-22T18:26:22.169Z"
     },
     {
      "mint": "HhVURSaM5NDHLt3cw73KMku5PK9ehcCDg9124JTmAmK9",
@@ -300,41 +300,41 @@
      "name": "POLYCHAN",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 11622,
+     "marketCapUsd": 11282,
      "peakMarketCapUsd": 53977,
-     "volume24hUsd": 1399,
+     "volume24hUsd": 1479,
      "imageUrl": "https://gateway.irys.xyz/Ay3DkjjYVeGMCDfXF95zW3rs56yj2Jt4zXHQwGA5HPUP",
      "createdAt": "2026-08-06T13:28:15.125Z"
     }
    ],
    "hottestMeme": {
-    "mint": "BWKfqLkVudpCtsoC5oJ9cfVnc8tvJFcccU37ezDE2SoC",
-    "symbol": "Pulymurket",
-    "name": "Pulymurket",
-    "status": "new",
+    "mint": "6KiFaJnuM2Sr8ivA47fCYk5GjCr2fhwM6pGfBg5JeYnh",
+    "symbol": "PREDICTED",
+    "name": "Predicted",
+    "status": "graduated",
     "mode": "reward",
-    "marketCapUsd": 3716,
-    "peakMarketCapUsd": 4558,
-    "volume24hUsd": 16337,
-    "imageUrl": "https://axiomtrading.sfo3.cdn.digitaloceanspaces.com/GuypwUn1C7L8H5HekE66upqb9XsBpJWQyBJveDr9pump.webp",
-    "createdAt": "2026-09-24T14:22:45.237Z"
+    "marketCapUsd": 2564,
+    "peakMarketCapUsd": 50588,
+    "volume24hUsd": 25422,
+    "imageUrl": "https://gateway.irys.xyz/EaUZPGJMk5sSexLVrxweGYybrCmd9puGaESAGKF7RfUY",
+    "createdAt": "2026-09-24T21:22:02.344Z"
    },
    "curves": {
-    "vaults": 375,
-    "funded": 370,
-    "amount": 91.03827943700006,
-    "valueUsd": 13185.013635280307
+    "vaults": 379,
+    "funded": 374,
+    "amount": 90.63764141200004,
+    "valueUsd": 13208.797496070822
    },
    "graduatedPools": {
-    "pools": 14,
+    "pools": 15,
     "otherPools": 0,
-    "amount": 345.72021492700003,
-    "valueUsd": 50070.42945005313
+    "amount": 386.6484456740001,
+    "valueUsd": 56347.02030543174
    },
    "held": {
-    "amount": 436.75849436400006,
-    "valueUsd": 63255.443085333434,
-    "shareOfSupply": 0.09067129032826549
+    "amount": 477.2860870860001,
+    "valueUsd": 69555.81780150256,
+    "shareOfSupply": 0.09908596828905858
    }
   },
   {
@@ -343,14 +343,14 @@
    "mint": "PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S",
    "image": "https://www.prestocks.com/logos/neuralink.png",
    "url": "https://www.prestocks.com/neuralink",
-   "price": 440.31220310284885,
-   "valuationUsd": 64075483504,
-   "supply": 2595.274403723,
+   "price": 435.56016610630303,
+   "valuationUsd": 64084274390,
+   "supply": 2595.273807132,
    "launchable": true,
-   "memes": 344,
+   "memes": 345,
    "graduated": 16,
    "aboutToGraduate": 0,
-   "graduationRate": 0.046511627906976744,
+   "graduationRate": 0.0463768115942029,
    "topMemes": [
     {
      "mint": "9TwJc2mFyFKEvMKeQ1bZbqoZNTYJN9PE1ES4Dp2SHquQ",
@@ -358,9 +358,9 @@
      "name": "Neuracat",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 22909,
+     "marketCapUsd": 22400,
      "peakMarketCapUsd": 259859,
-     "volume24hUsd": 529,
+     "volume24hUsd": 364,
      "imageUrl": "https://gateway.irys.xyz/9geB4BDLw71FM1PyQ15CBVxqWyu288dMiek9JeLiYaDs",
      "createdAt": "2026-08-06T03:56:59.535Z"
     },
@@ -370,9 +370,9 @@
      "name": "GEORGE DROYD",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 21071,
+     "marketCapUsd": 20475,
      "peakMarketCapUsd": 547575,
-     "volume24hUsd": 1502,
+     "volume24hUsd": 495,
      "imageUrl": "https://gateway.irys.xyz/27U5GSuuVuA56LAE69SgkVzZDRjxKzjnncwpaGRMwwac",
      "createdAt": "2026-08-06T03:42:57.287Z"
     },
@@ -382,11 +382,23 @@
      "name": "IQ Test",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 13530,
+     "marketCapUsd": 12186,
      "peakMarketCapUsd": 210903,
-     "volume24hUsd": 2996,
+     "volume24hUsd": 1073,
      "imageUrl": "https://axiomtrading-v2.axiom-cdn.io/9PkC2QsyQCGfceQsX1fgUVfMFQk9dAuR3f1gJ7z2NmZG.webp",
      "createdAt": "2026-09-09T15:41:58.967Z"
+    },
+    {
+     "mint": "Dw5Nk9rBN7kNAL8rAvTX2vDwvH3x8b71Pvnjq9zzrqyC",
+     "symbol": "PAGER",
+     "name": "Pager The Monkey",
+     "status": "new",
+     "mode": "reward",
+     "marketCapUsd": 11330,
+     "peakMarketCapUsd": 18823,
+     "volume24hUsd": 19603,
+     "imageUrl": "https://gateway.irys.xyz/5UyPNQzwPAxC8tGwwhNGxqYncVJAovGsRnx61nBrVghf",
+     "createdAt": "2026-09-24T12:06:04.010Z"
     },
     {
      "mint": "3HC5wu2PmpSEgXKgS2r7TDCDCg7xsotx32Ym7ubzN1NX",
@@ -394,23 +406,11 @@
      "name": "Brainlet",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 12524,
+     "marketCapUsd": 11060,
      "peakMarketCapUsd": 293594,
-     "volume24hUsd": 526,
+     "volume24hUsd": 495,
      "imageUrl": "https://gateway.irys.xyz/5viZyHxTFwYky7VYdpZB8GQZQRnuu1h4FZwJDdKFhetY",
      "createdAt": "2026-09-07T06:11:04.639Z"
-    },
-    {
-     "mint": "59tp4LoiCNNNFkwDYg7SFTbF8wJdjMS5DCyStHmbgBmZ",
-     "symbol": "BIGBRAIN",
-     "name": "Big Brain",
-     "status": "graduated",
-     "mode": "reward",
-     "marketCapUsd": 10642,
-     "peakMarketCapUsd": 150810,
-     "volume24hUsd": 0,
-     "imageUrl": "https://gateway.irys.xyz/8rgLzyqWVT1eGtbxLnEfwu3xnvRMSKYVHmRk3SzwQ7Uu",
-     "createdAt": "2026-08-11T04:04:15.394Z"
     }
    ],
    "hottestMeme": {
@@ -419,134 +419,28 @@
     "name": "Pager The Monkey",
     "status": "new",
     "mode": "reward",
-    "marketCapUsd": 10816,
+    "marketCapUsd": 11330,
     "peakMarketCapUsd": 18823,
-    "volume24hUsd": 18670,
+    "volume24hUsd": 19603,
     "imageUrl": "https://gateway.irys.xyz/5UyPNQzwPAxC8tGwwhNGxqYncVJAovGsRnx61nBrVghf",
     "createdAt": "2026-09-24T12:06:04.010Z"
    },
    "curves": {
-    "vaults": 302,
-    "funded": 294,
-    "amount": 40.72557328199998,
-    "valueUsd": 17931.966894423927
+    "vaults": 303,
+    "funded": 295,
+    "amount": 41.74617848399997,
+    "valueUsd": 18182.9724347944
    },
    "graduatedPools": {
     "pools": 12,
     "otherPools": 0,
-    "amount": 83.008649095,
-    "valueUsd": 36549.72115961075
+    "amount": 81.78702879800001,
+    "valueUsd": 35623.17184859787
    },
    "held": {
-    "amount": 123.73422237699998,
-    "valueUsd": 54481.68805403468,
-    "shareOfSupply": 0.04767673976959796
-   }
-  },
-  {
-   "symbol": "FIGUREAI",
-   "name": "Figure AI",
-   "mint": "PreZad18qfPtbxNpMtMuAuX2zVpvkEU8DnJx56faCWd",
-   "image": "https://www.prestocks.com/logos/figureai.png",
-   "url": "https://www.prestocks.com/figureai",
-   "price": 170.41374425923698,
-   "valuationUsd": 39384583730,
-   "supply": 3012.857155916,
-   "launchable": true,
-   "memes": 53,
-   "graduated": 3,
-   "aboutToGraduate": 0,
-   "graduationRate": 0.05660377358490566,
-   "topMemes": [
-    {
-     "mint": "FCpqXfA66C8D7bTAu5SS2hEHd2WBB9tN8MBYtGw9FBpm",
-     "symbol": "F03",
-     "name": "FIGURE 03",
-     "status": "graduated",
-     "mode": "reward",
-     "marketCapUsd": 41935,
-     "peakMarketCapUsd": 669634,
-     "volume24hUsd": 3727,
-     "imageUrl": "https://gateway.irys.xyz/FrM157m8fdZM2BDfGaikcHgji8HHR3Tp4RZ7MNma3Sx8",
-     "createdAt": "2026-09-06T07:24:08.493Z"
-    },
-    {
-     "mint": "AwqQhFPbXWYXgPuSA2H5ZLn5ikJbHTnWCRyPWcdddvGz",
-     "symbol": "FUCKBOT",
-     "name": "FUCKBOT",
-     "status": "graduated",
-     "mode": "reward",
-     "marketCapUsd": 37873,
-     "peakMarketCapUsd": 111126,
-     "volume24hUsd": 0,
-     "imageUrl": "https://gateway.irys.xyz/6ydfP8NWZU4b9K7ms1w55QTwP4ni8yf641afva43Vo8M",
-     "createdAt": "2026-09-06T07:38:30.444Z"
-    },
-    {
-     "mint": "HsA2XUzPJcZaLLifE9Y9AZypqr5h4N3zvvRgkLwzqR9B",
-     "symbol": "SEXBOT",
-     "name": "SEXBOT",
-     "status": "new",
-     "mode": "reward",
-     "marketCapUsd": 13885,
-     "peakMarketCapUsd": 17493,
-     "volume24hUsd": 0,
-     "imageUrl": "https://gateway.irys.xyz/E4aCyoJqhsB8CtTAHJpBWNB1kMwVNrVf8iacqCUfLjFs",
-     "createdAt": "2026-09-06T07:39:23.170Z"
-    },
-    {
-     "mint": "BiwYAQWhsbi61XpiK1axZjQTu6ti2eHgu4XVDasd96Tx",
-     "symbol": "BENDER",
-     "name": "BENDER",
-     "status": "new",
-     "mode": "reward",
-     "marketCapUsd": 13691,
-     "peakMarketCapUsd": 22708,
-     "volume24hUsd": 0,
-     "imageUrl": "https://gateway.irys.xyz/GS2Pp7SwvPRYwjHB8gVdt5hNoVz5YCTW413VJPdFoiTt",
-     "createdAt": "2026-09-06T07:35:49.352Z"
-    },
-    {
-     "mint": "6hm51uC7jv53y9iHDSG8P9Y67H8dokSrAD1N6nszranU",
-     "symbol": "TINCAN",
-     "name": "TINCAN",
-     "status": "new",
-     "mode": "reward",
-     "marketCapUsd": 10687,
-     "peakMarketCapUsd": 16657,
-     "volume24hUsd": 0,
-     "imageUrl": "https://gateway.irys.xyz/6fhgDKyativGJiUaSAQyUMmvzZqum3AVzJCyckTM6Aud",
-     "createdAt": "2026-09-06T07:29:28.412Z"
-    }
-   ],
-   "hottestMeme": {
-    "mint": "FCpqXfA66C8D7bTAu5SS2hEHd2WBB9tN8MBYtGw9FBpm",
-    "symbol": "F03",
-    "name": "FIGURE 03",
-    "status": "graduated",
-    "mode": "reward",
-    "marketCapUsd": 41935,
-    "peakMarketCapUsd": 669634,
-    "volume24hUsd": 3727,
-    "imageUrl": "https://gateway.irys.xyz/FrM157m8fdZM2BDfGaikcHgji8HHR3Tp4RZ7MNma3Sx8",
-    "createdAt": "2026-09-06T07:24:08.493Z"
-   },
-   "curves": {
-    "vaults": 53,
-    "funded": 53,
-    "amount": 85.90595063299997,
-    "valueUsd": 14639.554701518695
-   },
-   "graduatedPools": {
-    "pools": 3,
-    "otherPools": 2,
-    "amount": 113.752506481,
-    "valueUsd": 19384.99054830033
-   },
-   "held": {
-    "amount": 199.658457114,
-    "valueUsd": 34024.54524981903,
-    "shareOfSupply": 0.0662688095656821
+    "amount": 123.53320728199998,
+    "valueUsd": 53806.14428339227,
+    "shareOfSupply": 0.04759929643744017
    }
   },
   {
@@ -555,8 +449,8 @@
    "mint": "PresTj4Yc2bAR197Er7wz4UUKSfqt6FryBEdAriBoQB",
    "image": "https://www.prestocks.com/logos/anduril.png",
    "url": "https://www.prestocks.com/anduril",
-   "price": 162.82665118505935,
-   "valuationUsd": 135573423307,
+   "price": 164.13452489047114,
+   "valuationUsd": 136766054018,
    "supply": 11805.817985464,
    "launchable": true,
    "memes": 110,
@@ -570,9 +464,9 @@
      "name": "DronedByLuckey",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 337080,
-     "peakMarketCapUsd": 340086,
-     "volume24hUsd": 18923,
+     "marketCapUsd": 523133,
+     "peakMarketCapUsd": 804336,
+     "volume24hUsd": 22569,
      "imageUrl": "https://gateway.irys.xyz/7NRaag8g6kWsm7W77SKMDCHn7EXwTsjfWvPsQpVasP46",
      "createdAt": "2026-09-23T20:30:48.468Z"
     },
@@ -582,9 +476,9 @@
      "name": "WARCAT",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 38327,
+     "marketCapUsd": 37210,
      "peakMarketCapUsd": 674095,
-     "volume24hUsd": 843,
+     "volume24hUsd": 706,
      "imageUrl": "https://gateway.irys.xyz/J5qEukWau8d8RjBSbrUDTWPgREF3jvk9mxw8f9HTs4tK",
      "createdAt": "2026-08-06T19:13:28.616Z"
     },
@@ -594,9 +488,9 @@
      "name": "BOOM",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 33505,
+     "marketCapUsd": 35278,
      "peakMarketCapUsd": 620033,
-     "volume24hUsd": 891,
+     "volume24hUsd": 1013,
      "imageUrl": "https://gateway.irys.xyz/9vsB3bwG1QUnL9tjxSp4qVrQ919ATVBUNwdy3pJUiwpu",
      "createdAt": "2026-08-13T20:25:26.129Z"
     },
@@ -606,9 +500,9 @@
      "name": "KIRKINATOR",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 27654,
+     "marketCapUsd": 28297,
      "peakMarketCapUsd": 1007053,
-     "volume24hUsd": 955,
+     "volume24hUsd": 183,
      "imageUrl": "https://gateway.irys.xyz/DShdVj8JNM8K4bb9U5Yokh9WC9DsTEZgnQR4WApjpoif",
      "createdAt": "2026-08-07T23:05:32.177Z"
     },
@@ -618,7 +512,7 @@
      "name": "Anduril Industries",
      "status": "new",
      "mode": "reward",
-     "marketCapUsd": 6820,
+     "marketCapUsd": 6971,
      "peakMarketCapUsd": 17951,
      "volume24hUsd": 0,
      "imageUrl": "https://gateway.irys.xyz/13vTM9rNfAcp5kgcWCU1nyHWR9RywW1QxutYhz8tfxKR",
@@ -631,28 +525,134 @@
     "name": "DronedByLuckey",
     "status": "graduated",
     "mode": "reward",
-    "marketCapUsd": 337080,
-    "peakMarketCapUsd": 340086,
-    "volume24hUsd": 18923,
+    "marketCapUsd": 523133,
+    "peakMarketCapUsd": 804336,
+    "volume24hUsd": 22569,
     "imageUrl": "https://gateway.irys.xyz/7NRaag8g6kWsm7W77SKMDCHn7EXwTsjfWvPsQpVasP46",
     "createdAt": "2026-09-23T20:30:48.468Z"
    },
    "curves": {
     "vaults": 81,
     "funded": 80,
-    "amount": 21.806350143000003,
-    "valueUsd": 3550.6549683535304
+    "amount": 21.729778896000003,
+    "valueUsd": 3566.6069350699468
    },
    "graduatedPools": {
     "pools": 2,
     "otherPools": 0,
-    "amount": 179.630275508,
-    "valueUsd": 29248.596212417226
+    "amount": 217.569625499,
+    "valueUsd": 35710.687111876105
    },
    "held": {
-    "amount": 201.436625651,
-    "valueUsd": 32799.251180770756,
-    "shareOfSupply": 0.017062487825834714
+    "amount": 239.299404395,
+    "valueUsd": 39277.29404694605,
+    "shareOfSupply": 0.020269616615268774
+   }
+  },
+  {
+   "symbol": "FIGUREAI",
+   "name": "Figure AI",
+   "mint": "PreZad18qfPtbxNpMtMuAuX2zVpvkEU8DnJx56faCWd",
+   "image": "https://www.prestocks.com/logos/figureai.png",
+   "url": "https://www.prestocks.com/figureai",
+   "price": 171.77169597702388,
+   "valuationUsd": 39323575832,
+   "supply": 3012.857155916,
+   "launchable": true,
+   "memes": 53,
+   "graduated": 3,
+   "aboutToGraduate": 0,
+   "graduationRate": 0.05660377358490566,
+   "topMemes": [
+    {
+     "mint": "FCpqXfA66C8D7bTAu5SS2hEHd2WBB9tN8MBYtGw9FBpm",
+     "symbol": "F03",
+     "name": "FIGURE 03",
+     "status": "graduated",
+     "mode": "reward",
+     "marketCapUsd": 46296,
+     "peakMarketCapUsd": 669634,
+     "volume24hUsd": 4969,
+     "imageUrl": "https://gateway.irys.xyz/FrM157m8fdZM2BDfGaikcHgji8HHR3Tp4RZ7MNma3Sx8",
+     "createdAt": "2026-09-06T07:24:08.493Z"
+    },
+    {
+     "mint": "AwqQhFPbXWYXgPuSA2H5ZLn5ikJbHTnWCRyPWcdddvGz",
+     "symbol": "FUCKBOT",
+     "name": "FUCKBOT",
+     "status": "graduated",
+     "mode": "reward",
+     "marketCapUsd": 37601,
+     "peakMarketCapUsd": 111126,
+     "volume24hUsd": 0,
+     "imageUrl": "https://gateway.irys.xyz/6ydfP8NWZU4b9K7ms1w55QTwP4ni8yf641afva43Vo8M",
+     "createdAt": "2026-09-06T07:38:30.444Z"
+    },
+    {
+     "mint": "HsA2XUzPJcZaLLifE9Y9AZypqr5h4N3zvvRgkLwzqR9B",
+     "symbol": "SEXBOT",
+     "name": "SEXBOT",
+     "status": "new",
+     "mode": "reward",
+     "marketCapUsd": 13625,
+     "peakMarketCapUsd": 17493,
+     "volume24hUsd": 0,
+     "imageUrl": "https://gateway.irys.xyz/E4aCyoJqhsB8CtTAHJpBWNB1kMwVNrVf8iacqCUfLjFs",
+     "createdAt": "2026-09-06T07:39:23.170Z"
+    },
+    {
+     "mint": "BiwYAQWhsbi61XpiK1axZjQTu6ti2eHgu4XVDasd96Tx",
+     "symbol": "BENDER",
+     "name": "BENDER",
+     "status": "new",
+     "mode": "reward",
+     "marketCapUsd": 13435,
+     "peakMarketCapUsd": 22708,
+     "volume24hUsd": 0,
+     "imageUrl": "https://gateway.irys.xyz/GS2Pp7SwvPRYwjHB8gVdt5hNoVz5YCTW413VJPdFoiTt",
+     "createdAt": "2026-09-06T07:35:49.352Z"
+    },
+    {
+     "mint": "6hm51uC7jv53y9iHDSG8P9Y67H8dokSrAD1N6nszranU",
+     "symbol": "TINCAN",
+     "name": "TINCAN",
+     "status": "new",
+     "mode": "reward",
+     "marketCapUsd": 10487,
+     "peakMarketCapUsd": 16657,
+     "volume24hUsd": 0,
+     "imageUrl": "https://gateway.irys.xyz/6fhgDKyativGJiUaSAQyUMmvzZqum3AVzJCyckTM6Aud",
+     "createdAt": "2026-09-06T07:29:28.412Z"
+    }
+   ],
+   "hottestMeme": {
+    "mint": "FCpqXfA66C8D7bTAu5SS2hEHd2WBB9tN8MBYtGw9FBpm",
+    "symbol": "F03",
+    "name": "FIGURE 03",
+    "status": "graduated",
+    "mode": "reward",
+    "marketCapUsd": 46296,
+    "peakMarketCapUsd": 669634,
+    "volume24hUsd": 4969,
+    "imageUrl": "https://gateway.irys.xyz/FrM157m8fdZM2BDfGaikcHgji8HHR3Tp4RZ7MNma3Sx8",
+    "createdAt": "2026-09-06T07:24:08.493Z"
+   },
+   "curves": {
+    "vaults": 53,
+    "funded": 53,
+    "amount": 85.72570119999997,
+    "valueUsd": 14725.249083943587
+   },
+   "graduatedPools": {
+    "pools": 3,
+    "otherPools": 2,
+    "amount": 117.415932466,
+    "valueUsd": 20168.73385440852
+   },
+   "held": {
+    "amount": 203.14163366599996,
+    "valueUsd": 34893.98293835211,
+    "shareOfSupply": 0.06742491367940036
    }
   },
   {
@@ -661,14 +661,14 @@
    "mint": "PreLWGkkeqG1s4HEfFZSy9moCrJ7btsHuUtfcCeoRua",
    "image": "https://www.prestocks.com/logos/kalshi.png",
    "url": "https://www.prestocks.com/kalshi",
-   "price": 872.0201983360815,
-   "valuationUsd": 32053742368,
-   "supply": 904.867766516,
+   "price": 867.471714318438,
+   "valuationUsd": 32093417290,
+   "supply": 904.865204987,
    "launchable": true,
-   "memes": 194,
+   "memes": 195,
    "graduated": 9,
    "aboutToGraduate": 0,
-   "graduationRate": 0.04639175257731959,
+   "graduationRate": 0.046153846153846156,
    "topMemes": [
     {
      "mint": "69sKunujvUtmzLmQ2L5TYPTULmZQrY41KC8ZHA38a5ku",
@@ -676,7 +676,7 @@
      "name": "will this coin go up?",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 8033,
+     "marketCapUsd": 7991,
      "peakMarketCapUsd": 41511,
      "volume24hUsd": 0,
      "imageUrl": "https://gateway.irys.xyz/52gLuanQKUj9ePHU3NCVKP5PKUMZAYRVF9uvQkM3foLq",
@@ -688,7 +688,7 @@
      "name": "TAKE THE RISK",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 7991,
+     "marketCapUsd": 7949,
      "peakMarketCapUsd": 206445,
      "volume24hUsd": 0,
      "imageUrl": "https://gateway.irys.xyz/Ane2s22BjNJzKsDL2rYfKyAXf75d3VXmN7LXvsJxpUw",
@@ -700,7 +700,7 @@
      "name": "BETCOIN",
      "status": "new",
      "mode": "reward",
-     "marketCapUsd": 7801,
+     "marketCapUsd": 7760,
      "peakMarketCapUsd": 16565,
      "volume24hUsd": 0,
      "imageUrl": "https://gateway.irys.xyz/4qkrB6wZhWKcRyEawmEYvtPXFJ6iRudrjkp2W4Nu3wvp",
@@ -712,9 +712,9 @@
      "name": "WASH",
      "status": "graduated",
      "mode": "reward",
-     "marketCapUsd": 6861,
+     "marketCapUsd": 7675,
      "peakMarketCapUsd": 295894,
-     "volume24hUsd": 1150,
+     "volume24hUsd": 848,
      "imageUrl": "https://gateway.irys.xyz/AUbJm8Xy6oB9gJJHe6EsUSVJhG5qeyo8JXDJECM9xK8n",
      "createdAt": "2026-09-21T02:39:18.697Z"
     },
@@ -724,7 +724,7 @@
      "name": "Kalish v Kalshi",
      "status": "new",
      "mode": "reward",
-     "marketCapUsd": 6317,
+     "marketCapUsd": 6284,
      "peakMarketCapUsd": 19857,
      "volume24hUsd": 0,
      "imageUrl": "https://gateway.irys.xyz/HfvMdxspYKYvQ4mSbv1HBkp1xuAM8z21uan8rZ5j58N4",
@@ -732,33 +732,33 @@
     }
    ],
    "hottestMeme": {
-    "mint": "Ahombp1eShD58QAank9ZwZRb7SUbBDgNqaGrggfRF8TN",
-    "symbol": "Parlay",
-    "name": "Parlay TRADE GENNY AS FUCK ONG",
+    "mint": "FhYxhvGwk8ZrvjHttKfCkodbPgj82mskDmgdDMXb4Qkx",
+    "symbol": "PULYMURKET",
+    "name": "Pulymurket",
     "status": "new",
     "mode": "reward",
-    "marketCapUsd": 3279,
-    "peakMarketCapUsd": 3355,
-    "volume24hUsd": 2449,
-    "imageUrl": "https://axiomtrading-v2.axiom-cdn.io/26Eh2iL5yhQo58R3jrx4BreLikGgNh5Smng61D7upump.webp",
-    "createdAt": "2026-09-23T18:53:11.994Z"
+    "marketCapUsd": 3265,
+    "peakMarketCapUsd": 3361,
+    "volume24hUsd": 2094,
+    "imageUrl": "https://axiomtrading-v2.axiom-cdn.io/J9k6MoXJAseop2rmzEULhXR3aMDsJHbRRZHfp9B1kxGg.webp",
+    "createdAt": "2026-09-24T14:22:45.237Z"
    },
    "curves": {
-    "vaults": 176,
-    "funded": 173,
-    "amount": 7.632943253,
-    "valueUsd": 6656.080689369115
+    "vaults": 178,
+    "funded": 175,
+    "amount": 7.669403354,
+    "valueUsd": 6652.990475293958
    },
    "graduatedPools": {
     "pools": 7,
     "otherPools": 0,
-    "amount": 20.620111667000003,
-    "valueUsd": 17981.153865569493
+    "amount": 20.8445496,
+    "valueUsd": 18082.057175707712
    },
    "held": {
-    "amount": 28.253054920000004,
-    "valueUsd": 24637.23455493861,
-    "shareOfSupply": 0.031223407403252253
+    "amount": 28.513952954,
+    "valueUsd": 24735.04765100167,
+    "shareOfSupply": 0.031511823857134226
    }
   },
   {
@@ -767,9 +767,9 @@
    "mint": "PreANxuXjsy2pvisWWMNB6YaJNzr7681wJJr2rHsfTh",
    "image": "https://www.prestocks.com/logos/spacex.png",
    "url": "https://www.prestocks.com/spacex",
-   "price": 117.77888316164271,
-   "valuationUsd": 1919837449099,
-   "supply": 43712.532075815,
+   "price": 116.13607680484911,
+   "valuationUsd": 1940247418894,
+   "supply": 43712.52932,
    "launchable": false,
    "memes": 0,
    "graduated": 0,
